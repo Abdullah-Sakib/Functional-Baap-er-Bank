@@ -6,12 +6,14 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Event Horizon</title>
+  <script src="https://kit.fontawesome.com/1edf373191.js" crossorigin="anonymous"></script>
   <script src="https://cdn.tailwindcss.com"></script>
 </head>
 
 <body>
+  <p class=" hover:text-yellow-400 ml-2 mt-2 inline-block"><a href="magical.html"><i class="fa-solid fa-wand-magic-sparkles"></i></a></p>
   <header>
-    <h1 class="text-6xl text-center mt-10 font-medium">The <span class="text-yellow-400">Event Horizon</span> Bank</h1>
+    <h1 class="text-6xl text-center mt-6 font-medium">The <span class="text-yellow-400">Event Horizon</span> Bank</h1>
   </header>
   <main>
     <section>
@@ -31,7 +33,7 @@
       </div>
     </section>
     <section>
-      <div class="grid grid-cols-1 md:grid-cols-2 gap-5 w-9/12 mx-auto mt-10">
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-5 w-9/12 mx-auto mt-10 mb-20">
         <div class="bg-yellow-400 px-5 sm:px-10 py-12 rounded-lg">
           <h2 class="text-5xl text-white font-semibold">Deposit</h2>
           <input type="number" name="" id="deposit-input" class="block px-4 py-2 rounded-lg mt-6 w-full sm:w-9/12"
@@ -39,7 +41,7 @@
           <button
             class="bg-white hover:bg-blue-400 text-xl font-medium px-6 py-2 mt-5 rounded-lg  hover:ease-in duration-150 hover:text-white" id="deposit-btn">Deposit</button>
         </div>
-        <div class="bg-blue-400 px-5 sm:px-10 md:px-5 lg:px-10 py-12 rounded-lg">
+        <div class="bg-blue-400 px-5 sm:px-10 md:px-5 lg:px-10 py-12 rounded-lg ">
           <h2 class="text-5xl text-white font-semibold">Withdraw</h2>
           <input type="number" name="" id="withdraw-input" class="block px-4 py-2 rounded-lg mt-6  w-full sm:w-9/12"
             placeholder="$ Enter your amount">
@@ -47,7 +49,9 @@
             class="bg-white hover:bg-yellow-400 text-xl font-medium px-6 py-2 mt-5 rounded-lg  hover:ease-in duration-150 hover:text-white" id="withdraw-btn">Withdraw</button>
         </div>
       </div>
+    
     </section>
+
   </main>
   <script src="js/utilities.js"></script>
   <script src="js/diposit.js"></script>

@@ -13,7 +13,6 @@ function setValue(elementId , value){
 }
 
 
-
 document.getElementById('double').addEventListener('click', function(){
   const doubleValue = getInputValue('input-feild');
   const double = doubleValue * 2;

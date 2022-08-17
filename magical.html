@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Practice Problem</title>
+  <script src="https://kit.fontawesome.com/1edf373191.js" crossorigin="anonymous"></script>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body>
+  <p class=" hover:text-yellow-400 ml-2 mt-2 inline-block"><a href="bank.html"><i class="fa-solid fa-wand-magic-sparkles"></i></a></p>
+
+  <h1 class="w-3/4 mx-auto text-center text-5xl sm:text-5xl text-blue-300 font-semibold mt-6">Magical Buttons</h1>
+
+  <div class="bg-blue-300 mt-10 w-3/4 mx-auto p-4 sm:p-10 text-white rounded">
+    <h2 class="font-semibold text-2xl sm:text-3xl">Enter a number and click buttons</h2>
+    <input type="text" id="input-feild" class="block text-black w-full sm:w-3/4 px-4 py-1 my-4 rounded-lg" placeholder="Enter a number">
+    <button
+      class="bg-white hover:bg-gray-100 text-blue-400 hover:text-black px-5 py-2 font-semibold rounded-lg" id="double">Double</button>
+    <button
+      class="bg-white hover:bg-gray-100 text-blue-400 hover:text-black px-6 py-2 font-semibold rounded-lg sm:ml-2 mt-2" id="triple">Triple</button>
+  </div>
+
+  <div class="bg-blue-300 w-3/4 sm:w-6/12 mx-auto mt-10 text-center p-14 text-white font-bold text-6xl sm:text-8xl rounded-lg mb-20">
+    <p id="final-value">00</p>
+  </div>
+
+  <script src="js/double.js"></script>
+  <script src="js/triple.js"></script>
+</body>
+
+</html>
